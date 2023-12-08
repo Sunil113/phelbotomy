@@ -1,26 +1,72 @@
 {
+
   "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
+
+    "types": [
+
+      "react",
+
+      "react-dom",
+      "node"
+
     ],
+
+    "typeRoots": [
+
+      "node_modules/@types",
+
+      "src/types"
+
+    ],
+
+    "target": "es5",
+
+    "lib": [
+
+      "dom",
+
+      "dom.iterable",
+
+      "esnext"
+
+    ],
+
     "allowJs": true,
+
     "skipLibCheck": true,
+
     "esModuleInterop": true,
+
     "allowSyntheticDefaultImports": true,
+
     "strict": true,
+
     "forceConsistentCasingInFileNames": true,
+
     "noFallthroughCasesInSwitch": true,
+
     "module": "esnext",
+
     "moduleResolution": "node",
+
     "resolveJsonModule": true,
+
     "isolatedModules": true,
+
     "noEmit": true,
+
     "jsx": "react-jsx"
+
   },
+
   "include": [
-    "src"
+
+    "src",
+
+    "src/components/molecules/UseCasesStep2/DataSourceList.tsx",
+
+    "src/**/*.d.ts"
+
   ]
+
 }

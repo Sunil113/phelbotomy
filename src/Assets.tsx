@@ -1,0 +1,10 @@
+export const CallLogo = require("../src/assets/call.png")
+export const TrueLogo = require("../src/assets/Truequationswhite.png")
+export const DasboardIcon = require("../src/assets/dashboards.png")
+export const OrderIcon = require("../src/assets/orders.png")
+export const UserIcon = require("../src/assets/users.png")
+export const SettingIcon = require("../src/assets/settings.png")
+export const SearchIcon = require("../src/assets/search.png")
+export const AddIcon  = require("../src/assets/add.png")
+export const ProfileIcon  = require("../src/assets/profile.png")
+

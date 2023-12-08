@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conatiner_1{
+    border: 1px solid rgb(255, 42, 0);
+    position:absolute;
+    /* margin-top: 0px; */
+    margin-top: 3%;
+    margin-left: 16%;
+    height: 1000px;
+    width: 100%;
+
+}

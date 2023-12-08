@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #eeeef0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.center_div{
+    border-radius: 20px;
+    background-color: white;
+    width: 45%;
+    height: 60%;
+    box-shadow: 0px 1px 40px #b9b6b600 ;
+}
+.uppder_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.uppder_div img{
+    width: 15%;
+}
+.uppder_div h1{
+    font-size: 1.5rem;
+}
+
+.lower_div_login{
+    width: 100%;
+    padding: 14px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.second_div{
+    width: 60%;
+    padding: 4px;
+    margin: 10px auto;
+    
+}
+label{
+    text-align: start;
+}
+.input_filed{
+    padding: 16px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 1rem;
+    border: 0.1px solid rgba(103, 103, 103, 0.142);
+}
+.input_filed::placeholder{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.forgot_password{
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    padding: 14px;
+    text-align: end;
+    color: #11111189;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.input_filed:focus{
+    outline: none;
+}
+.Login-button{
+    /* border: 1px solid red; */
+    display: block;
+    width: 90%;
+    background-color: #1D2F52;
+    margin: 20px auto;
+    cursor: pointer;
+    color: white;
+    padding: 14px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 399px) {
+    .center_div {
+        border: 1px solid red;
+        width: 70%;
+        height: 60%;
+        gap: 10px;
+      /* margin: auto; */
+    }
+    
+    .uppder_div{
+        border: 1px solid saddlebrown;
+        gap: 10px;
+    }
+    .uppder_div h1{
+        font-size: 1.3rem;
+    }
+    .second_div{
+        border: 1px solid blue ;
+        margin-top: 1%;
+        padding: 2px;
+        width: 100%;
+    }
+    .lower_div_login{
+        border: 1px solid rgb(240, 226, 146);
+        width: 100%;
+    }
+    .input_filed{
+        padding: 10px;
+        
+    }
+    .input_filed::placeholder{
+        padding: 10px;
+        /* font-size: 0.8rem; */
+    }
+    .forgot_password{
+        margin-top: 0px;
+    }
+    .Login-button{
+        margin-top: 0px;
+        padding: 8px;
+    }
+  }
